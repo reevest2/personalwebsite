@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using PersonalSite.Models;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using PersonalSite.Models;
 
 namespace PersonalSite.Controllers
 {
@@ -24,6 +24,11 @@ namespace PersonalSite.Controllers
         }
 
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult testingground()
         {
             return View();
         }
