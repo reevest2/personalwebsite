@@ -1,6 +1,6 @@
-﻿.parallax {
-    background-image: url(../computerimage.jpg);
-    background-attachment: fixed;
+﻿/*semi-parallax styling. For use with a background image */
+.parallax {
+        background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,3 +13,54 @@
     color: white;
     background-color: hsla(0,0%,0%,.45)
 }
+
+/*Approx remaining height less navbar - use on container*/
+.remaining-height{
+    height: calc(100vh - 5rem)
+}
+
+/*Background images to be used with parallax below*/
+.background-computer1 {
+    background-image: url(../computerimage.jpg);
+}
+
+.background-computer2{
+    background-image: url('../photos/background images/pexels-bich-tran-669996.jpg');
+}
+
+.background-computer3{
+    background-image: url('../photos/background images/pexels-jessica-lynn-lewis-593322.jpg');
+}
+
+.background-computer4{
+    background-image: url('../photos/background images/pexels-pixabay-4158.jpg');
+}
+
+.background-computer5{
+    background-image: url('../photos/background images/pexels-tranmautritam-251225.jpg');
+}
+
+.background-eclipse{
+    background-image: url('../photos/background images/pexels-drew-rae-580679.jpg');
+}
+
+.background-wood{
+    background-image: url('../photos/background images/pexels-fwstudio-164005.jpg');
+}
+
+.background-space{
+    background-image: url('../photos/background images/pexels-philippe-donn-1169754.jpg');
+}
+
+.background-code{
+    background-image: url('../photos/background images/pexels-pixabay-270360.jpg');
+}
+
+.background-dots{
+    background-image: url('../photos/background images/pexels-rovenimagescom-949587.jpg');
+}
+
+.background-mountain{
+    background-image: url('../photos/background images/pexels-tyler-lastovich-997443.jpg');
+}
+
