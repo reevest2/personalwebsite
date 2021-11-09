@@ -22,7 +22,7 @@ a {
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1b6ec2;
-  border-color: #1861ac;
+  border: none;
 }
 
 /* Sticky footer styles
@@ -40,7 +40,7 @@ html {
   border-top: 1px solid #e5e5e5;
 }
 .border-bottom {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: none;
 }
 
 .box-shadow {
@@ -62,7 +62,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-  padding-top: 75px;
+  padding-top: calc(5rem - 6px);
 }
 .footer {
   position: absolute;
