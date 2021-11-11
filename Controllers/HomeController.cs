@@ -23,12 +23,7 @@ namespace PersonalSite.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        public IActionResult testingground()
+        public IActionResult Projects()
         {
             return View();
         }
