@@ -16,7 +16,7 @@
 
 /*Approx remaining height less navbar - use on container*/
 .remaining-height{
-    height: calc(103vh - 5rem)
+    height: calc(100vh - 5rem)
 }
 
 /*Background images to be used with parallax below*/
