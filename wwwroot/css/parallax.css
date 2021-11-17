@@ -22,8 +22,16 @@
 /*Approx remaining height less navbar - use on container*/
 .remaining-height{
     height: calc(100vh - 5rem);
-    min-height: 300px;
+    min-height: 800px;
     
+}
+
+@media (min-width: 350px) {
+    .remaining-height {
+        height: calc(100vh - 5rem);
+        min-height: 600px;
+        ;
+    }
 }
 
 /*Background images to be used with parallax below*/
