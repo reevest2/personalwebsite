@@ -14,9 +14,16 @@
     background-color: hsla(0,0%,0%,.65)
 }
 
+.paralax-fontdarker {
+    color: white;
+    background-color: hsla(0,0%,0%,.85)
+}
+
 /*Approx remaining height less navbar - use on container*/
 .remaining-height{
-    height: calc(100vh - 5rem)
+    height: calc(100vh - 5rem);
+    min-height: 300px;
+    
 }
 
 /*Background images to be used with parallax below*/
