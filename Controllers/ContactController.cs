@@ -12,5 +12,9 @@ namespace PersonalSite.Controllers
         {
             return View();
         }
+        public IActionResult thankyou()
+        {
+            return View();
+        }
     }
 }
