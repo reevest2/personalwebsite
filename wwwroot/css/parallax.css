@@ -19,6 +19,12 @@
     background-color: hsla(0,0%,0%,.85)
 }
 
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
 /*Approx remaining height less navbar - use on container*/
 .remaining-height {
     height: calc(100vh - 5rem);
